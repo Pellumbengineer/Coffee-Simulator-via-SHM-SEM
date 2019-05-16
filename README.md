@@ -1,1 +1,2 @@
-# Coffee-Simulator-via-SHM-SEM
+# Introduction
+In this project I have to do a coffee simulator for a new open shop. This is simply a producer/consumer problem and is solved by using Semaphore and Shared memory.We have 3 hired Baristas(Producer) and they are able to make at most 4 cop of cups of coffee per a period of time and we have clients(consumer) the total number is 50.They can consume at most 2 cups. Baristas and consumers have to use the same place for consummation and preparation of coffees(shared memory). Which is 15 slots.

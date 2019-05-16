@@ -14,13 +14,20 @@ Below I have tried to describe the main concept and scenario of this project.
 The location of head will have the index of the next production to retrieve, while tail will have the index of where the next production should be stored.
 
 TO_PRODUCE → 1
+
 TO_CONSUME → 0
+
 EMPTY      →15
+
 FULL       → 0
+
 
 Here we have our semaphores
 
 
+Shorlty this is the scenario!
+
+![Screenshot from 2019-05-17 01-45-06](https://user-images.githubusercontent.com/26312757/57891942-def22b00-7845-11e9-9217-8bd63548f487.png)
 
 
 

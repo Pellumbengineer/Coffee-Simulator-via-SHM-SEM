@@ -32,3 +32,8 @@ Shorlty this is the scenario!
 
 
 When first producer comes it decrements the Producer semaphore which means no other producer or consumer can operate and then produces coffee it checks if slots are full if not it decrements the Empty semaphore and changes the tail if yes it signals directly the consumer. After it updates the tail it increments the Full semaphore. Now it is time for the consumer to consume by incrementing the Consume semaphore. It consumes and checks if the number of empty slots is less then 15 it decrements Full semaphore and changes the index of head, also increments the empty semaphore. And it is the turn for producer to produce and so on.
+
+
+
+This project is done by using the codes in the book:(Interprocess Communications in
+Linux)

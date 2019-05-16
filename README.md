@@ -7,8 +7,7 @@ We have 3 producer and 50 consumer. Our 3 producers produce coffees until all co
 
 Below I have tried to describe the main concept and scenario of this project.
 
-
-
+![Screenshot from 2019-05-17 01-44-21](https://user-images.githubusercontent.com/26312757/57891899-c1bd5c80-7845-11e9-82e5-a4fea9c382b6.png)
 
 
 

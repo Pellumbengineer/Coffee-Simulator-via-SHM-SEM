@@ -35,5 +35,24 @@ When first producer comes it decrements the Producer semaphore which means no ot
 
 
 
+
+
 This project is done by using the codes in the book:(Interprocess Communications in
 Linux)
+
+
+## USAGE
+You have to compile the code by typing :
+
+1 - g++ -B /local.h consumer.cxx -o consumer
+2 - g++ -B /local.h producer.cxx -o producer
+3 - g++ -B /local.h parent.cxx -o parent
+
+and you can execute py typing :
+./parent 3 1.
+
+
+
+
+
+
